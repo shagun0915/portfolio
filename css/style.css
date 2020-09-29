@@ -1,0 +1,92 @@
+body{
+	background-color:#ECF1F1;
+}
+header{
+	background-color: #08090A;
+	color:#FDFEFE ;
+}
+footer{
+	background-color: #08090A;
+	color:#FDFEFE ;
+	padding-bottom:4%;
+	padding-top: 4%;
+	text-align: center;
+}
+section{
+	padding-bottom:4%;
+	padding-top:2%;
+	text-align: center;
+	padding-left: 1%;
+	padding-right: 1%;
+
+}
+.hero-image{
+	width:100%;
+	padding-top: 6%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color:#08090A; 
+
+}
+
+.hero-text {
+  position: absolute;
+  top:50%;
+  left:40%;
+  animation-name: colorchange;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  text-align: center;
+}
+
+
+
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+#contact-form{
+	background-color: #8FA9CE;
+	color:#FDFEFE ;
+	width: 100%;
+}
+
+h3{
+	padding-bottom: 4%;
+	padding-top: 2%;
+	font-size: 45px;
+}
+
+.id{
+	margin-bottom: 2%;
+	border-radius: 6%;
+	border: 10px solid white;
+}
+
+.btn{
+	background-color: black;
+}
+
+@keyframes colorchange {
+  0%   {color: #8FA9CE;}
+  25%  {color: #2E79A8;}
+  50%  {color: #214990;}
+  100% {color: #233966;}
+}
+h1{
+	font-family: "Monotype Corsiva";
+	font-weight: bolder;
+}
+h2{
+	font-family: "Open Sans Extra Bold";
+	font-weight: bolder;
+	font-size: 70px;
+}
+.card{
+	opacity: 0.8;
+}
+.card:hover{
+	opacity: 1.0;
+}
